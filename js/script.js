@@ -32,7 +32,3 @@ const scroll = new LocomotiveScroll({
     tablet: { smooth: true },
     smartphone: { smotth: true },
 });
-let preloader = document.querySelector(".holder");
-setTimeout(() => {
-    preloader.classList.add("loaded");
-}, 3000)
