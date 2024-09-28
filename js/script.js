@@ -36,6 +36,3 @@ let preloader = document.querySelector(".holder");
 setTimeout(() => {
     preloader.classList.add("loaded");
 }, 3000)
-setTimeout(() => {
-    preloader.remove();
-}, 3301)
